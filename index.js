@@ -6,7 +6,6 @@ const pages = require('./routes/pages');
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-
 // route to pages
 app.use('/', pages);
 
